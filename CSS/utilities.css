@@ -1,0 +1,136 @@
+/* Text colors */
+.text-primary{
+    color: #28a745;
+}
+.text-secondary{
+    color: #0284d0;
+}
+/* Button */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+   
+    border-radius: 5px;
+}
+.btn-1{
+     padding: 10px 30px;
+    border: none;
+}
+.btn-2{
+    padding: 15px 30px;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-primary, .bg-primary{
+    background: #28a745;
+    color: #fff;
+}
+.btn-secondary, .bg-secondary{
+    background: #0284d0;
+    color: #fff;
+}
+.btn-dark, .bg-dark{
+    background: #333;
+    color: #fff;
+}
+.btn-light, .bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+}
+/* Icons */
+.icons{
+    padding: 3px;
+}
+.icons h2{font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.icons i{
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+/* Flex columns */
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+   
+}
+ .flex-columns .row{
+     display: flex;
+     /* flex-basis: 100%; */
+     /* flex: 1; */
+flex: 100%;
+    max-width: 100%;  
+ }
+.flex-columns  .row-1,
+.flex-columns  .row-2{  
+    height: 100%;}
+
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-columns .row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.blog-post-two .column{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Flex Grid */
+.flex-grid .row{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.flex-grid .column{
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+.flex-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    }
+
+    @media(min-width: 768px){
+        .flex-columns .column{
+           display: flex;
+           flex-direction: row;
+             flex-basis: 100%;
+            flex: 1;
+            width: 100%;
+        }
+
+        .flex-columns .row{
+             flex-wrap: wrap;
+             width: 100%;
+          }
+
+    .flex-items{
+        flex-direction: row;
+    }
+    
+    .flex-grid .column{
+        flex: 25%;
+            max-width: 25%;}
+        
+    }
