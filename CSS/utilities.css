@@ -128,11 +128,6 @@ justify-content: center;}
     
     .flex-grid .column{
         flex: 25%;
-            max-width: 25%;}
-
-            .form-container .row{
-                display: flex;
-                justify-content: center;
-                 }
+            max-width: 25%;
         
-    }
+    }}
