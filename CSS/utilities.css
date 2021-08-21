@@ -81,6 +81,10 @@ flex: 100%;
     justify-content: center;
     padding: 30px;
 }
+.form-container .row{
+display: flex;
+justify-content: center;}
+
 .blog-post-two .column{
     display: flex;
     flex-direction: column-reverse;
