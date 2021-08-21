@@ -308,9 +308,6 @@ outline-color:  #28a745;
    margin-bottom: 30px;
 }
 @media(min-width: 768px){
-.hero{
-    height: 100vh;
-}
 
 .hamburger-icon{
     display: none;
