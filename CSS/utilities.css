@@ -61,20 +61,13 @@
 /* Flex columns */
 .flex-columns .column{
     display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-   
-}
+    flex-direction: column;}
+
  .flex-columns .row{
      display: flex;
-     /* flex-basis: 100%; */
-     /* flex: 1; */
 flex: 100%;
     max-width: 100%;  
  }
-.flex-columns  .row-1,
-.flex-columns  .row-2{  
-    height: 100%;}
 
 .flex-columns img{
     width: 100%;
@@ -132,5 +125,10 @@ flex: 100%;
     .flex-grid .column{
         flex: 25%;
             max-width: 25%;}
+
+            .form-container .row{
+                display: flex;
+                justify-content: center;
+                 }
         
     }

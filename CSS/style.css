@@ -20,7 +20,7 @@ a{
 }
 
 h1, h2{
-    font-weight: 300;
+    font-weight: 400;
 line-height: 1.2;
 }
 
@@ -55,7 +55,7 @@ img{
     justify-content: center;
     text-align: center;
     height: 100%; 
-     margin: 10px;
+    
 } 
    .hero::before{
     content: '';
@@ -76,7 +76,7 @@ img{
     .hero .content p{
        font-size: 17px;
          max-width: 600px;
-        margin: 15px 0px 20px; 
+        margin: 15px 10px 20px; 
     } 
 .logo-hamburgericon{
     display: flex;
@@ -96,7 +96,6 @@ img{
    } 
 .navbar .nav{
     display: none;
-    width: 100%;
     margin-top: 10px;
 }
 .navbar{
@@ -176,9 +175,7 @@ background-color: #000;
         margin-top: 30px;
     }
     /* Team */
-    .team-container{
-        margin: 30px;
-    }
+    
     .last-imgteam{
         margin-bottom: 30px;
     }
@@ -318,6 +315,13 @@ outline-color:  #28a745;
 .hamburger-icon{
     display: none;
 }
+.hero .content h1{
+    font-size: 50px;
+}
+.hero .content p{
+   font-size: 18px;
+    margin: 20px 0px 25px; 
+} 
 .features{
     display: flex;
     flex-direction: row;
@@ -336,6 +340,7 @@ outline-color:  #28a745;
 .navbar .u-list{
    display: flex;
    flex-direction: row;
+   justify-content: flex-end;
   background-color: #333;
 }
 
@@ -355,7 +360,11 @@ outline-color:  #28a745;
     height: auto;
 }
 
-  .link:hover{
-    border-bottom: #28a745 2px solid;
-}
+.team-container{
+ margin: 30px;}
+
+ 
+ .blog-size{
+     margin-top: 30px;
+ }
 }
